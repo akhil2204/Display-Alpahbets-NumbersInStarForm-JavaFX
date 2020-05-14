@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3problem1.FXMLDocumentController">
+   <children>
+      <Label layoutX="27.0" layoutY="68.0" text="Input:" />
+      <Label layoutX="27.0" layoutY="322.0" text="Output:" />
+      <TextArea fx:id="input" layoutX="84.0" layoutY="27.0" prefHeight="108.0" prefWidth="507.0" />
+      <TextArea fx:id="output" layoutX="84.0" layoutY="160.0" prefHeight="350.0" prefWidth="507.0" />
+   </children>
+</AnchorPane>
